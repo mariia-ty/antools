@@ -1,0 +1,13 @@
+:root {
+    --orange-color: #FF6E30;
+    --white-color: #FFFFFF;
+    --med-white-color: rgba(255, 255, 255, 0.78);
+    --light-white-color: rgba(255, 255, 255, 0.9);
+    --white8-color: rgba(255, 255, 255, 0.8);
+    --grey-color: rgba(255, 255, 255, 0.55);
+    --search-color: rgba(255, 255, 255, 0.38);
+    --light-oran-color: rgba(255, 165, 55, 0.55);
+    --bg-black-color: #1E252B;
+    --poppins-font:'Poppins', sans-serif;
+    --roboto-font: 'Roboto', sans-serif;
+}
