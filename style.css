@@ -14,11 +14,19 @@
 
 .container {
   background-color: var(--bg-black-color);
+  
+}
+
+.site-width {
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .header-cont {
   background-color: var(--bg-black-color);
-  padding: 26px 105px 4px 120px;
+  padding-top: 26px;
+  padding-left: 120px;
+  padding-right: 105px;
 }
 
 .header-box {
@@ -41,9 +49,9 @@
 }
 
 .logo-img {
-    width: 19px;
-    height: 21px;
-    margin-right: 22px;
+  width: 19px;
+  height: 21px;
+  margin-right: 22px;
 }
 
 .option-list {
@@ -51,7 +59,7 @@
   display: flex;
   gap: 25px;
   margin-right: 193px;
-  margin-top: 0;
+  margin-top: 12px;
 }
 
 .option {
@@ -66,15 +74,15 @@
 }
 
 .chevron {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
 }
 
 .registration {
   list-style: none;
   display: flex;
   gap: 41px;
-  margin-top: 0;
+  margin-top: 12px;
 }
 
 .reg-type {
@@ -85,9 +93,26 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+
+}
+
+.sign-up-button {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .sign-up {
-    padding: 12px 28px;
-    color: var(--orange-color);
+  background-color: var(--orange-color);
+  width: 118px;
+  height: 48px;
+  color: var(--white-color);
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 10px;
+  margin-top: 0;
+  padding-top: 0;
 }
