@@ -1,17 +1,93 @@
 :root {
-    --orange-color: #FF6E30;
-    --white-color: #FFFFFF;
-    --med-white-color: rgba(255, 255, 255, 0.78);
-    --light-white-color: rgba(255, 255, 255, 0.9);
-    --white8-color: rgba(255, 255, 255, 0.8);
-    --grey-color: rgba(255, 255, 255, 0.55);
-    --search-color: rgba(255, 255, 255, 0.38);
-    --light-oran-color: rgba(255, 165, 55, 0.55);
-    --bg-black-color: #1E252B;
-    --poppins-font:'Poppins', sans-serif;
-    --roboto-font: 'Roboto', sans-serif;
+  --orange-color: #ff6e30;
+  --white-color: #ffffff;
+  --med-white-color: rgba(255, 255, 255, 0.78);
+  --light-white-color: rgba(255, 255, 255, 0.9);
+  --white8-color: rgba(255, 255, 255, 0.8);
+  --grey-color: rgba(255, 255, 255, 0.55);
+  --search-color: rgba(255, 255, 255, 0.38);
+  --light-oran-color: rgba(255, 165, 55, 0.55);
+  --bg-black-color: #1e252b;
+  --poppins-font: "Poppins", sans-serif;
+  --roboto-font: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: var(--bg-black-color);
+}
+
+.header-cont {
+  background-color: var(--bg-black-color);
+  padding: 26px 105px 4px 120px;
+}
+
+.header-box {
+  display: flex;
+  width: 1215px;
+  height: 48px;
+  outline: 3px solid violet;
 }
 
 .logo {
-    
+  color: var(--light-white-color);
+  font-family: var(--poppins-font);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  margin-right: 257px;
+  margin-top: 0;
+}
+
+.logo-img {
+    width: 19px;
+    height: 21px;
+    margin-right: 22px;
+}
+
+.option-list {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin-right: 193px;
+  margin-top: 0;
+}
+
+.option {
+  text-decoration: none;
+  color: var(--grey-color);
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+}
+
+.chevron {
+    width: 18px;
+    height: 18px;
+}
+
+.registration {
+  list-style: none;
+  display: flex;
+  gap: 41px;
+  margin-top: 0;
+}
+
+.reg-type {
+  text-decoration: none;
+  color: var(--med-white-color);
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sign-up {
+    padding: 12px 28px;
+    color: var(--orange-color);
 }
