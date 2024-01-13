@@ -14,26 +14,29 @@
 
 .container {
   background-color: var(--bg-black-color);
-  
 }
 
 .site-width {
-    width: 1440px;
-    margin: 0 auto;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .header-cont {
   background-color: var(--bg-black-color);
   padding-top: 26px;
-  padding-left: 120px;
-  padding-right: 105px;
+
+  margin-left: 120px;
+  margin-right: 105px;
 }
 
 .header-box {
   display: flex;
-  width: 1215px;
+  max-width: 1215px;
   height: 48px;
+
   outline: 3px solid violet;
+
+  align-items: center;
 }
 
 .logo {
@@ -45,44 +48,57 @@
   line-height: normal;
   text-decoration: none;
   margin-right: 257px;
-  margin-top: 0;
+
+  display: flex;
+  text-align: center;
 }
 
 .logo-img {
   width: 19px;
   height: 21px;
+
   margin-right: 22px;
+  margin-top: 5px;
 }
 
 .option-list {
   list-style: none;
   display: flex;
   gap: 25px;
-  margin-right: 193px;
+
+  margin-right: auto;
   margin-top: 12px;
 }
 
 .option {
-  text-decoration: none;
   color: var(--grey-color);
   font-family: var(--poppins-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-decoration: none;
+
   display: flex;
+}
+
+.special {
+  width: 110px;
 }
 
 .chevron {
   width: 18px;
   height: 18px;
+
+  margin-top: 5px;
 }
 
 .registration {
   list-style: none;
   display: flex;
   gap: 41px;
-  margin-top: 12px;
+
+  padding: 0;
 }
 
 .reg-type {
@@ -94,6 +110,7 @@
   font-weight: 600;
   line-height: normal;
 
+  margin: 12px;
 }
 
 .sign-up-button {
