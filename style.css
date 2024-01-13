@@ -8,6 +8,7 @@
   --search-color: rgba(255, 255, 255, 0.38);
   --light-oran-color: rgba(255, 165, 55, 0.55);
   --bg-black-color: #1e252b;
+  --dark-grey-color: #283036;
   --poppins-font: "Poppins", sans-serif;
   --roboto-font: "Roboto", sans-serif;
 }
@@ -147,3 +148,43 @@
   margin-left: 118px;
 }
 
+.antools-title {
+  color: var(--light-white-color);
+  font-family: var(--poppins-font);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 70px */
+
+  width: 600px;
+}
+
+.dot {
+  color: var(--orange-color);
+}
+
+.first-desc {
+  color: var(--grey-color);
+  font-family: var(--poppins-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+
+  width: 487px;
+
+  margin-top: 30px;
+}
+
+.search-box {
+    width: 498px;
+    height: 64px;
+
+    margin-top: 60px;
+
+    background-color: var(--dark-grey-color);
+
+    border-radius: 5px;
+
+    align-items: center;
+}
