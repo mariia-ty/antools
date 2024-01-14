@@ -9,6 +9,9 @@
   --light-oran-color: rgba(255, 165, 55, 0.55);
   --bg-black-color: #1e252b;
   --dark-grey-color: #283036;
+  --loadm-color: rgba(255, 255, 255, 0.1);
+  --half-loadm-color: rgba(255, 255, 255, 0.05);
+  --dark-color: rgba(44, 53, 61, 0.2);
   --poppins-font: "Poppins", sans-serif;
   --roboto-font: "Roboto", sans-serif;
 }
@@ -445,7 +448,7 @@
   line-height: normal;
 
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--loadm-color);
   background-color: var(--bg-black-color);
 }
 
@@ -456,22 +459,22 @@
   margin: 0 108px 220px 108px;
 
   border-radius: 25px;
-  border: 2px solid rgba(255, 255, 255, 0.05);
-  background-color: rgba(44, 53, 61, 0.2);
+  border: 2px solid var(--half-loadm-color);
+  background-color: var(--dark-color);
 }
 
 .small-ttl {
   color: var(--white8-color);
-font-family: var(--poppins-font);
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  font-family: var(--poppins-font);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 
-text-align: center;
+  text-align: center;
 
-margin-bottom: 56px;
-margin-top: 55px;
+  margin-bottom: 56px;
+  margin-top: 55px;
 }
 
 .logos-brands {
@@ -487,4 +490,95 @@ margin-top: 55px;
 .brand-logo {
   width: 157px;
   height: 51px;
+}
+
+.forth-section {
+  display: flex;
+  gap: 219px;
+
+  margin: 0 108px;
+}
+
+.left-side {
+  width: 427px;
+  height: 300px;
+
+  outline: 3px solid violet;
+
+  display: block;
+}
+
+.forth-ttl {
+  color: var(--light-white-color);
+  font-family: var(--poppins-font);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 62.4px */
+
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.forth-desc {
+  color: var(--grey-color);
+  font-family: var(--poppins-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+
+  margin-bottom: 60px;
+}
+
+.expl-btn {
+  width: 198px;
+  height: 58px;
+  text-align: center;
+}
+
+.explore {
+  width: 198px;
+  height: 58px;
+  background-color: var(--orange-color);
+
+  color: var(--white-color);
+  font-family: var(--poppins-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  border-radius: 8px;
+  border: none;
+}
+
+.right-bx {
+  width: 600px;
+  outline: 3px solid violet;
+
+  display: block;
+}
+
+.right-side {
+  margin-left: 0;
+  padding-left: 0;
+
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.tool-bot {
+  max-width: 288px;
+}
+
+.bt {
+  width: 245px;
+}
+
+.bot {
+  margin-right: 43px;
 }
