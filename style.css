@@ -590,6 +590,8 @@
 .fifth-section {
   display: flex;
   gap: 30px;
+
+  margin: 0 296px 358px 295px;
 }
 
 .bottom-left {
@@ -650,10 +652,14 @@
 }
 
 .bottom-right {
-  width: 400px;
+  width: 450px;
 
-  background-image: url(/images/bottom-bg.jpg); /* png w clear bg */
+  background-image: url(/images/bottom-bg.png); /* png w clear bg */
   background-position: top left;
+
+  background-repeat: no-repeat;
+
+  outline: 3px solid violet;
 }
 
 .txt {
@@ -666,4 +672,7 @@
   font-weight: 400;
   line-height: 30px; /* 214.286% */
   letter-spacing: 0.21px;
+
+  margin-left: 50px;
+  margin-top: 50px;
 }
