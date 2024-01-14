@@ -25,6 +25,11 @@
 .site-width {
   width: 1440px;
   margin: 0 auto;
+
+}
+
+html {
+  background-color: var(--bg-black-color);
 }
 
 .header-cont {
@@ -619,10 +624,12 @@
     var(--blue-color)
   );
   backdrop-filter: blur(25px);
+
+  margin: 372px 2px 29px 130px;
 }
 
 .plaque {
-  margin: 372px 2px 29px 130px;
+  margin: 0 2px 29px 2px;
 }
 
 .name {
@@ -776,6 +783,7 @@
 
   outline: 3px solid violet;
   margin: 0 233px 0 108px;
+  margin-bottom: 0;
 }
 
 .footer-list {
@@ -785,11 +793,13 @@
 
   margin-left: 0;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .info {
   margin-right: 0;
   margin-top: 0;
+  margin-bottom: 0px;
 }
 
 
