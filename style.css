@@ -688,10 +688,9 @@
 }
 
 .six-ttl {
-  color: rgba(255, 255, 255, 0.9);
-
+  color: var(--light-white-color);
   text-align: center;
-  font-family: Poppins;
+  font-family: var(--poppins-font);
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
@@ -701,7 +700,7 @@
 .six-desc {
   width: 427px;
 
-  color: rgba(255, 255, 255, 0.55);
+  color: var(--grey-color);
   text-align: center;
   font-family: Poppins;
   font-size: 18px;
@@ -721,9 +720,9 @@
   background-color: var(--dark-grey-color);
 
   border-radius: 15px;
-  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  border: 1.5px solid var(--loadm-color);
 
-  background: #283036;
+  background: var(--dark-grey-color);
 }
 
 .send-email {
@@ -735,9 +734,9 @@
 }
 
 .send-email::placeholder {
-  color: rgba(255, 255, 255, 0.38);
+  color: var(--search-color);
 
-  font-family: Poppins;
+  font-family: var(--poppins-font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -747,15 +746,14 @@
 .join-us-btn {
   text-align: center;
 
-
   padding-top: 0;
 
   margin-left: 0;
 }
 
 .join-us {
-  color: #fff;
-  font-family: Poppins;
+  color: var(--white-color);
+  font-family: var(--poppins-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -769,5 +767,100 @@
   border: none;
   border-radius: 8px;
 
-    margin: 8px 12px 8px 0;
+  margin: 8px 12px 8px 0;
+}
+
+.footer-sec {
+  width: 1068px;
+  height: 183px;
+
+  outline: 3px solid violet;
+  margin: 0 233px 0 108px;
+}
+
+.footer-list {
+  list-style: none;
+
+  display: flex;
+
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.info {
+  margin-right: 0;
+  margin-top: 0;
+}
+
+
+
+.logo {
+  text-decoration: none;
+}
+
+.copyright {
+  color: var(--light-white-color);
+
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.foot-desc {
+  width: 260px;
+
+  color: var(--grey-color);
+  font-family: var(--poppins-font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 178.571% */
+
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.foot-ttl {
+  color: var(--light-white-color);
+
+  font-family: var(--poppins-font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-top: 0;
+
+  max-width: 144px;
+}
+
+.info-txt {
+  color: var(--grey-color);
+  font-family: var(--poppins-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.special-ft {
+  margin-right: 31px;
+}
+
+.contacts {
+  margin-right: 115px;
+
+  min-width: 197px;
+}
+
+.categories {
+  margin-right: 115px;
+
+  min-width: 112px;
+}
+
+.company {
+  min-width: 144px;
 }
