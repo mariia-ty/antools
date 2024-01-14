@@ -445,6 +445,46 @@
   line-height: normal;
 
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.10);
-background-color: var(--bg-black-color);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: var(--bg-black-color);
+}
+
+.third-section {
+  width: 1224px;
+  height: 253px;
+
+  margin: 0 108px 220px 108px;
+
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(44, 53, 61, 0.2);
+}
+
+.small-ttl {
+  color: var(--white8-color);
+font-family: var(--poppins-font);
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+text-align: center;
+
+margin-bottom: 56px;
+margin-top: 55px;
+}
+
+.logos-brands {
+  margin-left: 82px;
+  margin-right: 83px;
+
+  list-style: none;
+
+  display: flex;
+  gap: 107px;
+}
+
+.brand-logo {
+  width: 157px;
+  height: 51px;
 }
