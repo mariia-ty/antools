@@ -778,7 +778,7 @@ html {
 }
 
 .footer-sec {
-  width: 1068px;
+  width: 1078px;
   height: 183px;
 
   outline: 3px solid violet;
@@ -802,10 +802,21 @@ html {
   margin-bottom: 0px;
 }
 
-
+.ft-logo {
+  display: flex;
+  
+  height: 38px;
+  
+  align-items: center;
+}
 
 .logo {
   text-decoration: none;
+
+}
+
+.img-ft {
+  margin-right: 12px;
 }
 
 .copyright {
