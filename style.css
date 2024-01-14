@@ -25,7 +25,6 @@
 .site-width {
   width: 1440px;
   margin: 0 auto;
-
 }
 
 html {
@@ -322,7 +321,7 @@ html {
   list-style: none;
 
   display: flex;
-  gap: 25px;
+  gap: 80px;
   flex-wrap: wrap;
 }
 
@@ -336,11 +335,25 @@ html {
   flex-direction: column;
 }
 
+.tool:hover {
+  background: radial-gradient(
+    at top right,
+    var(--orange-color),
+    var(--dark-grey-color)
+  );;
+
+  margin-right: 0;
+  padding-right: 0;
+}
+
 .top-third {
   display: flex;
   gap: 30px;
 
   align-items: center;
+
+  margin-top: 33px;
+  margin-right: 0;
 }
 
 .tool-logo {
@@ -395,23 +408,63 @@ html {
   height: 42px;
 }
 
-.heart-lnk {
-  text-decoration: none;
+.heart-bg {
+  width: 30px;
+  height: 30px;
+
+  background-image: url(/images/heart.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  margin-right: 12px;
+  margin-top: 5px;
+
+  align-items: center;
 }
 
-.heart,
-.folder {
+.heart-bg:hover {
+  width: 55px;
+  height: 55px;
+
+  background-image: url(/images/red-heart.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-right: 12px;
+
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.folder-bg {
+  width: 30px;
+  height: 30px;
+
+  background-image: url(/images/folder.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-right: 124px;
+
+  align-items: center;
+}
+
+.folder-bg:hover {
   width: 42px;
   height: 42px;
-}
 
-.heart {
-  margin-right: 12px;
-}
+  background-image: url(/images/white-folder.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
-.folder {
   margin-right: 124px;
+
+  align-items: center;
+
+  cursor: pointer;
 }
+
 
 .visit {
   text-align: center;
@@ -435,6 +488,13 @@ html {
   line-height: normal;
 
   background-color: var(--bg-black-color);
+}
+
+.visit-button:hover {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+
+  cursor: pointer;
 }
 
 .more {
@@ -804,15 +864,14 @@ html {
 
 .ft-logo {
   display: flex;
-  
+
   height: 38px;
-  
+
   align-items: center;
 }
 
 .logo {
   text-decoration: none;
-
 }
 
 .img-ft {
