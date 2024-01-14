@@ -676,3 +676,98 @@
   margin-left: 50px;
   margin-top: 50px;
 }
+
+.sixth-section {
+  width: 553px;
+  height: 323px;
+
+  outline: 3px solid violet;
+
+  margin: 0 auto;
+  margin-bottom: 248px;
+}
+
+.six-ttl {
+  color: rgba(255, 255, 255, 0.9);
+
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.six-desc {
+  width: 427px;
+
+  color: rgba(255, 255, 255, 0.55);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+
+  margin: 0 63px 100px 63px;
+}
+
+.bot-form {
+  width: 549px;
+  height: 64px;
+
+  display: flex;
+
+  background-color: var(--dark-grey-color);
+
+  border-radius: 15px;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+
+  background: #283036;
+}
+
+.send-email {
+  background-color: var(--dark-grey-color);
+
+  border: none;
+
+  margin: 22px 195px 21px 24px;
+}
+
+.send-email::placeholder {
+  color: rgba(255, 255, 255, 0.38);
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.join-us-btn {
+  text-align: center;
+
+
+  padding-top: 0;
+
+  margin-left: 0;
+}
+
+.join-us {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  width: 130px;
+  height: 48px;
+
+  background-color: var(--orange-color);
+
+  border: none;
+  border-radius: 8px;
+
+    margin: 8px 12px 8px 0;
+}
