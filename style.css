@@ -1,5 +1,6 @@
 :root {
   --orange-color: #ff6e30;
+  --orange-dark-color: #d85923;
   --white-color: #ffffff;
   --med-white-color: rgba(255, 255, 255, 0.78);
   --light-white-color: rgba(255, 255, 255, 0.9);
@@ -43,8 +44,6 @@ html {
   display: flex;
   max-width: 1215px;
   height: 48px;
-
-  outline: 3px solid violet;
 
   align-items: center;
 }
@@ -143,16 +142,21 @@ html {
   line-height: normal;
 
   border-radius: 8px;
+  border: none;
 
   margin-top: 0;
   padding-top: 0;
+
+  cursor: pointer;
+}
+
+.sign-up:hover {
+  background-color: var(--orange-dark-color);
 }
 
 .first-section {
   width: 1329px;
   height: 568px;
-
-  outline: 3px solid violet;
 
   margin-left: 118px;
   margin-bottom: 200px;
@@ -171,7 +175,7 @@ html {
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
-  line-height: 140%; 
+  line-height: 140%;
 
   width: 600px;
 }
@@ -186,7 +190,7 @@ html {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 30px;
 
   width: 487px;
 
@@ -275,6 +279,12 @@ html {
 
   margin: 0;
   padding: 0;
+
+  cursor: pointer;
+}
+
+.search:hover {
+  background-color: var(--orange-dark-color);
 }
 
 .social-list {
@@ -294,10 +304,8 @@ html {
 }
 
 .second-section {
-  outline: 3px solid violet;
-
   width: 1376px;
-  height: 1109;
+  height: 1109px;
 
   margin: 0 108px;
 }
@@ -308,7 +316,7 @@ html {
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
-  line-height: 130%; 
+  line-height: 130%;
 
   text-align: center;
 
@@ -355,10 +363,12 @@ html {
   background: radial-gradient(
     at top right,
     var(--orange-color),
+    var(--dark-grey-color),
+    var(--dark-grey-color),
     var(--dark-grey-color)
   );
 
-  border: ;
+  border: none;
 
   margin-right: 0;
   padding-right: 0;
@@ -419,7 +429,7 @@ html {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 30px;
 }
 
 .bottom-third {
@@ -528,6 +538,12 @@ html {
   border-radius: 8px;
   border: 1px solid var(--loadm-color);
   background-color: var(--bg-black-color);
+
+  cursor: pointer;
+}
+
+.more-btn:hover {
+  background-color: var(--dark-grey-color);
 }
 
 .third-section {
@@ -536,9 +552,19 @@ html {
 
   margin: 0 108px 220px 108px;
 
+  background: radial-gradient(
+    at top left,
+    var(--orange-color),
+    var(--dark-grey-color),
+    var(--dark-grey-color),
+    var(--dark-grey-color),
+    var(--dark-grey-color)
+  );
+
   border-radius: 25px;
   border: 2px solid var(--half-loadm-color);
-  background-color: var(--dark-color);
+  border-bottom: 0;
+  border-right: 0;
 }
 
 .small-ttl {
@@ -581,8 +607,6 @@ html {
   width: 427px;
   height: 300px;
 
-  outline: 3px solid violet;
-
   display: block;
 }
 
@@ -592,7 +616,7 @@ html {
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
-  line-height: 130%; 
+  line-height: 130%;
 
   margin-top: 0;
   margin-bottom: 30px;
@@ -604,7 +628,7 @@ html {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; 
+  line-height: 30px;
 
   margin-bottom: 60px;
 }
@@ -629,6 +653,12 @@ html {
 
   border-radius: 8px;
   border: none;
+
+  cursor: pointer;
+}
+
+.explore:hover {
+  background-color: var(--orange-dark-color);
 }
 
 .right-bx {
@@ -678,8 +708,6 @@ html {
   background-position: center, left;
   background-size: contain, contain;
   background-repeat: no-repeat;
-
-  outline: 3px solid violet;
 }
 
 .person {
@@ -691,6 +719,8 @@ html {
 
   background: radial-gradient(
     at top left,
+    var(--loadm-color),
+    var(--loadm-color),
     var(--loadm-color),
     var(--blue-color)
   );
@@ -736,8 +766,6 @@ html {
   background-position: top left;
 
   background-repeat: no-repeat;
-
-  outline: 3px solid violet;
 }
 
 .txt {
@@ -748,7 +776,7 @@ html {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 30px;
   letter-spacing: 0.21px;
 
   margin-left: 50px;
@@ -758,8 +786,6 @@ html {
 .sixth-section {
   width: 553px;
   height: 323px;
-
-  outline: 3px solid violet;
 
   margin: 0 auto;
   margin-bottom: 248px;
@@ -784,7 +810,7 @@ html {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; 
+  line-height: 30px;
 
   margin: 0 63px 100px 63px;
 }
@@ -810,13 +836,12 @@ html {
   outline: none;
 
   margin: 22px 195px 21px 24px;
-color: var(--white8-color);
+  color: var(--white8-color);
   font-family: var(--poppins-font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
 }
 
 .send-email::placeholder {
@@ -855,11 +880,14 @@ color: var(--white8-color);
   margin: 8px 12px 8px 0;
 }
 
+.join-us:hover {
+  background-color: var(--orange-dark-color);
+}
+
 .footer-sec {
   width: 1078px;
   height: 183px;
 
-  outline: 3px solid violet;
   margin: 0 233px 0 108px;
   margin-bottom: 0;
 }
@@ -914,7 +942,7 @@ color: var(--white8-color);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px; 
+  line-height: 25px;
 
   margin-right: 0;
   padding-right: 0;
