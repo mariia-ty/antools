@@ -206,6 +206,8 @@ html {
   align-items: center;
 
   display: flex;
+
+  border: none;
 }
 
 .search-icon {
@@ -220,10 +222,22 @@ html {
 .search-bx {
   background-color: var(--dark-grey-color);
 
-  border: none;
   border-radius: 15px;
 
   margin-right: 111px;
+
+  color: var(--white8-color);
+  font-family: var(--poppins-font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border: none;
+
+  width: 190px;
+
+  outline: none;
 }
 
 .search-bx::placeholder {
@@ -233,6 +247,8 @@ html {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  border: none;
 }
 
 .search-button {
@@ -280,7 +296,7 @@ html {
 .second-section {
   outline: 3px solid violet;
 
-  width: 1218px;
+  width: 1376px;
   height: 1109;
 
   margin: 0 108px;
@@ -326,7 +342,7 @@ html {
 }
 
 .tool {
-  max-width: 392px;
+  width: 392px;
   height: 294px;
 
   border-radius: 15px;
@@ -340,10 +356,19 @@ html {
     at top right,
     var(--orange-color),
     var(--dark-grey-color)
-  );;
+  );
+
+  border: ;
 
   margin-right: 0;
   padding-right: 0;
+}
+
+.box {
+  max-width: 326px;
+  height: 228;
+
+  padding: 33px;
 }
 
 .top-third {
@@ -351,9 +376,6 @@ html {
   gap: 30px;
 
   align-items: center;
-
-  margin-top: 33px;
-  margin-right: 0;
 }
 
 .tool-logo {
@@ -403,34 +425,27 @@ html {
 .bottom-third {
   display: flex;
 
-  gap: 12px;
+  gap: 6px;
 
   height: 42px;
+  width: 326px;
 }
 
 .heart-bg {
-  width: 30px;
-  height: 30px;
+  width: 42px;
+  height: 42px;
 
   background-image: url(/images/heart.svg);
   background-repeat: no-repeat;
   background-size: contain;
 
-  margin-right: 12px;
-  margin-top: 5px;
-
   align-items: center;
 }
 
 .heart-bg:hover {
-  width: 55px;
-  height: 55px;
-
   background-image: url(/images/red-heart.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-
-  margin-right: 12px;
+  background-size: contain;
 
   align-items: center;
 
@@ -438,8 +453,8 @@ html {
 }
 
 .folder-bg {
-  width: 30px;
-  height: 30px;
+  width: 42px;
+  height: 42px;
 
   background-image: url(/images/folder.svg);
   background-repeat: no-repeat;
@@ -451,9 +466,6 @@ html {
 }
 
 .folder-bg:hover {
-  width: 42px;
-  height: 42px;
-
   background-image: url(/images/white-folder.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -464,7 +476,6 @@ html {
 
   cursor: pointer;
 }
-
 
 .visit {
   text-align: center;
@@ -796,13 +807,20 @@ html {
   background-color: var(--dark-grey-color);
 
   border: none;
+  outline: none;
 
   margin: 22px 195px 21px 24px;
+color: var(--white8-color);
+  font-family: var(--poppins-font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
 }
 
 .send-email::placeholder {
   color: var(--search-color);
-
   font-family: var(--poppins-font);
   font-size: 14px;
   font-style: normal;
@@ -914,6 +932,10 @@ html {
   margin-top: 0;
 
   max-width: 144px;
+}
+
+.cont {
+  text-decoration: none;
 }
 
 .info-txt {
