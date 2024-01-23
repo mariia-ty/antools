@@ -347,6 +347,8 @@ html {
   display: flex;
   gap: 80px;
   flex-wrap: wrap;
+
+  padding-left: 0;
 }
 
 .tool {
