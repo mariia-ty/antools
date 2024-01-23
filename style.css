@@ -445,7 +445,7 @@ html {
   width: 42px;
   height: 42px;
 
-  background-image: url(/images/heart.svg);
+  background-image: url(./images/heart.svg);
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -453,7 +453,7 @@ html {
 }
 
 .heart-bg:hover {
-  background-image: url(/images/red-heart.svg);
+  background-image: url(./images/red-heart.svg);
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -466,7 +466,7 @@ html {
   width: 42px;
   height: 42px;
 
-  background-image: url(/images/folder.svg);
+  background-image: url(./images/folder.svg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -476,7 +476,7 @@ html {
 }
 
 .folder-bg:hover {
-  background-image: url(/images/white-folder.svg);
+  background-image: url(./images/white-folder.svg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -704,7 +704,7 @@ html {
   width: 397px;
   height: 494px;
 
-  background-image: url(/images/bottom-man.png), url(/images/circle.png);
+  background-image: url(./images/bottom-man.png), url(./images/circle.png);
   background-position: center, left;
   background-size: contain, contain;
   background-repeat: no-repeat;
@@ -762,7 +762,7 @@ html {
 .bottom-right {
   width: 450px;
 
-  background-image: url(/images/bottom-bg.png);
+  background-image: url(./images/bottom-bg.png);
   background-position: top left;
 
   background-repeat: no-repeat;
