@@ -928,11 +928,13 @@ html {
 }
 
 .footer-sec {
-  width: 1078px;
+  width: 1080px;
   height: 183px;
 
   margin: 0 233px 0 108px;
   margin-bottom: 0;
+
+  border-top: 2px solid rgba(255, 255, 255, 0.15);
 }
 
 .footer-list {
