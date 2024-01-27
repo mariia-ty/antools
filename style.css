@@ -110,16 +110,35 @@ html {
   padding: 0;
 }
 
-.reg-type {
-  text-decoration: none;
-  color: var(--med-white-color);
+.login-top {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.login-btn {
+  background-color: var(--bg-black-color);
+
+  width: 118px;
+  height: 48px;
+
+  color: var(--white-color);
   font-family: var(--poppins-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 
-  margin: 12px;
+  border-radius: 8px;
+  border: none;
+
+  margin-right: -20px;
+
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: var(--dark-grey-color);
 }
 
 .sign-up-button {
@@ -143,9 +162,6 @@ html {
 
   border-radius: 8px;
   border: none;
-
-  margin-top: 0;
-  padding-top: 0;
 
   cursor: pointer;
 }
@@ -927,14 +943,16 @@ html {
   background-color: var(--orange-dark-color);
 }
 
+.border {
+  border-top: 2px solid rgba(255, 255, 255, 0.15);
+}
+
 .footer-sec {
   width: 1080px;
   height: 183px;
 
   margin: 0 233px 0 108px;
   margin-bottom: 0;
-
-  border-top: 2px solid rgba(255, 255, 255, 0.15);
 }
 
 .footer-list {
