@@ -671,8 +671,8 @@ html {
 }
 
 .right-bx {
-  width: 600px;
-  outline: 3px solid violet;
+  width: 650px;
+  height: 638px;
 
   display: block;
 
@@ -691,7 +691,41 @@ html {
 }
 
 .tool-bot {
-  max-width: 288px;
+  width: 288px;
+
+  border-radius: 15px;
+}
+
+.tool-bot:hover {
+  background: radial-gradient(
+    at top right,
+    var(--orange-color),
+    var(--dark-grey-color),
+    var(--dark-grey-color),
+    var(--dark-grey-color)
+  );
+
+  border: none;
+
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.bot-box {
+  max-width: 245px;
+  height: 228;
+
+  padding: 28px 21px 28px 22px;
+}
+
+.bot-folder {
+  margin-right: 43px;
+}
+
+.bot-folder:hover {
+  margin-right: 43px;
+
+  cursor: pointer;
 }
 
 .bt {
