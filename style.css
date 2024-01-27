@@ -383,11 +383,18 @@ html {
   padding: 33px;
 }
 
+.vsbox {
+  height: 228px;
+
+  padding-top: 20px;
+}
+
 .top-third {
   display: flex;
   gap: 30px;
 
   align-items: center;
+  margin-bottom: 0;
 }
 
 .tool-logo {
