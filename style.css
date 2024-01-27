@@ -304,7 +304,7 @@ html {
 }
 
 .second-section {
-  width: 1376px;
+  width: 1224px;
   height: 1109px;
 
   margin: 0 108px;
@@ -345,14 +345,14 @@ html {
   list-style: none;
 
   display: flex;
-  gap: 80px;
+  gap: 30px;
   flex-wrap: wrap;
 
   padding-left: 0;
 }
 
 .tool {
-  width: 392px;
+  width: 387px;
   height: 294px;
 
   border-radius: 15px;
