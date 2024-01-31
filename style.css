@@ -139,6 +139,23 @@ html {
 
 .login-btn:hover {
   background-color: var(--dark-grey-color);
+
+  -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
+}
+
+@-webkit-keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
 }
 
 .sign-up-button {
@@ -168,6 +185,23 @@ html {
 
 .sign-up:hover {
   background-color: var(--orange-dark-color);
+
+  -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
+}
+
+@-webkit-keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
 }
 
 .first-section {
@@ -301,6 +335,23 @@ html {
 
 .search:hover {
   background-color: var(--orange-dark-color);
+
+  -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
+}
+
+@-webkit-keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
 }
 
 .social-list {
@@ -541,6 +592,23 @@ html {
   color: var(--white-color);
 
   cursor: pointer;
+
+  -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
+}
+
+@-webkit-keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
 }
 
 .more {
@@ -569,6 +637,23 @@ html {
 
 .more-btn:hover {
   background-color: var(--dark-grey-color);
+
+  -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
+}
+
+@-webkit-keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
 }
 
 .third-section {
@@ -684,6 +769,23 @@ html {
 
 .explore:hover {
   background-color: var(--orange-dark-color);
+
+  -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
+}
+
+@-webkit-keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
 }
 
 .right-bx {
@@ -941,6 +1043,23 @@ html {
 
 .join-us:hover {
   background-color: var(--orange-dark-color);
+
+  -webkit-animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: shadow-pop-br 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
+}
+
+@-webkit-keyframes shadow-pop-br {
+  to {
+    box-shadow: 0px 10px 20px rgba(219, 210, 204, 0.1);
+    transform: scale(0.95);
+  }
 }
 
 .border {
